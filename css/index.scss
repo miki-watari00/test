@@ -1,0 +1,87 @@
+.jumbotron {
+    background: url(../images/office_99.jpg) no-repeat center {
+        size: cover;
+        attachment: fixed;
+    }
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-shadow: black 0px 0px 30px;
+    /*
+    padding-left: 50px;
+    padding-right: 50px;
+    */
+}
+.vertical {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.toiawase {
+    position: fixed;
+    z-index: 9999;
+    bottom: 10%;
+    right: -110px;
+    background-color: #31708f;
+    height: 58px;
+    width: 250px;
+    padding: 15px 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 3px #154a4f;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: none;
+        background-color: #114864;
+        color: white;
+    }
+}
+
+.yts-button {
+    background-color: #31708f;
+    color: white !important;
+    border: none;
+    &:hover {
+        background-color: skyblue;
+    }
+}
+.yts-footer {
+    width: 100%;
+    background-color: #5bc0de;
+    color: white;
+    padding: 15px;
+}
+
+.svg {
+    max-width: 100px;
+    margin-top: 5%;
+}
+
+.nav-pills {
+    .nav-link {
+        &.active {
+            background-color: skyblue !important;
+        }
+    }
+}
+nav {
+    .navbar-nav {
+        .nav-item {
+            padding: 0 10px;
+        }
+        a {
+            color: white !important;
+        }
+    }
+}
+
+// *::selection {
+//     background-color: skyblue;
+//     font-family: "Sawarabi Gothic"!important;
+// }
